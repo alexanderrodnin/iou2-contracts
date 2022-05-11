@@ -1,0 +1,22 @@
+{
+  "name": "iou2-contracts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderrodnin/iou2-contracts.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexanderrodnin/iou2-contracts/issues"
+  },
+  "homepage": "https://github.com/alexanderrodnin/iou2-contracts#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "=4.5.0"
+  }
+}

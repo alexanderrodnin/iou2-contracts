@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 pragma solidity>= 0.8.0;
 pragma experimental ABIEncoderV2;
 import  "./interfaces/iIOUtoken.sol";
@@ -89,12 +91,11 @@ contract IOUtoken is IOUData, iIOUtoken  {
         configured = false;
     }
     function setIOU  (
-    //    constructor (
                     string memory name_, 
                     string memory symbol_, 
                     DescriptionIOU memory _thisIOU,
                     address _store
-)  public  nonConfiged /* override */ {
+    )  public  nonConfiged  override  {
         thisIOU = _thisIOU;
         owner = _thisIOU.issuer;
         _name = name_; 
